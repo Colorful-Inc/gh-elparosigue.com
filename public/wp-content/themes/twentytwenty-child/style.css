@@ -1,0 +1,140 @@
+/*
+Theme Name: My Twenty Twenty Child Theme
+Theme URI: https://example.com
+Description: A child theme for Twenty Twenty.
+Author: Your Name
+Author URI: https://example.com/
+Template: twentytwenty
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+
+
+
+body,h1,h2,h3,h4,h5,h6,p,span,.entry-title a{
+    
+    color:#4a4a4a;
+    
+}
+
+/* ===============================================================
+
+Homepage Styles
+
+================================================================*/
+
+
+
+.page-id-73 .singular .entry-header {
+    padding: 8rem 0;
+    display: none !important;
+}
+
+.post-73 .singular .entry-header {
+    padding: 8rem 0;
+    display: none !important;
+}
+
+
+#post-73 > header{
+    
+    
+    display:none;
+    
+}
+
+#post-73 .post-inner{
+    
+    margin:0;
+    padding:0;
+}
+
+#post-73 .home-video, #post-73 .entry-content > .alignfull{
+    
+    margin-top:0 !important;
+    
+}
+
+
+
+/* Adjust Join Us Floral Image Dimensions */
+
+
+#post-73 .ugb-feature.ugb-feature--v2 .ugb-feature__image-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160%;
+    margin: -10% 0 -30% -20%;
+    z-index: 2;
+}
+
+#post-73 .ugb-feature.ugb-feature--v2 .ugb-feature__image.ugb-feature__image-has-shape {
+    box-shadow: none!important;
+    border-radius: 0!important;
+    width: 100%;
+}
+
+
+/* Footer Styles */
+
+.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
+    margin-top: 0;
+}
+
+
+
+
+
+/* ===============================================================
+
+Header Styles
+
+================================================================== */
+
+
+
+
+
+.header-titles .site-description{
+
+    display: none;
+
+}
+
+
+.primary-menu a {
+    color: inherit;
+    display: block;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 1000px){
+
+
+#post-73 .ugb-feature.ugb-feature--v2 .ugb-feature__image-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    margin: 0;
+    z-index: 2;
+}
+
+#post-73 .ugb-feature.ugb-feature--v2 .ugb-feature__image.ugb-feature__image-has-shape {
+    box-shadow: none!important;
+    border-radius: 0!important;
+    width: 580px;
+}
+
+
+
+}
